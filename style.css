@@ -104,6 +104,7 @@ nav {
 }
 
 .about-box p {
+    font-size: 18px;
     margin: 10px 0;
     text-align: justify;
     padding-left: 15px;
@@ -129,4 +130,100 @@ nav {
 
 .card p {
     text-align: center;
+}
+
+.wid-container {
+    margin: 60px auto;
+    text-align: center;
+}
+
+
+.wid-1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.wid-2 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.wid-cards {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.wid-card {
+    border: 1px dotted #fd6e0a;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.wid-card h2 {
+    margin: 10px 0;
+}
+
+.wid-card p {
+    text-align: left;
+    padding-left: 13px;
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.514);
+}
+
+
+/* Resume Section */
+#resume {
+    padding: 80px 10%;
+}
+
+#resume h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.resume-content {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.resume-box {
+    flex: 1;
+    min-width: 320px;
+}
+
+.resume-box h3 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #0D5BE1;
+}
+
+.resume-item {
+    padding: 20px;
+    margin-bottom: 25px;
+    border-left: 4px solid #0D5BE1;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.resume-item h4 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.resume-item h5 {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.resume-item p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #555;
 }
