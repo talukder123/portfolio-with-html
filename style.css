@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.logo-s {
+    color: #fd6e0a;
+}
+
+.hire-btn {
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    background-color:  #fd6e0a;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.outline-btn {
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: bold;
+    border: 1px solid #fd6e0a;
+    background-color:  white;
+    color: #fd6e0a;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-right {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.hero-left h2 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.hero-left-p1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.hero-left-btns {
+    margin-top: 10px;
+}
+
+.hero-root {
+    background-color: rgb(247, 232, 215);
+}
+
+.about-box {
+    background-color: rgb(247, 232, 215);
+    margin: 70px auto;
+    border-radius: 15px;
+    padding: 60px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.about-box p {
+    margin: 10px 0;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.about-box h2 {
+    font-size: 20px;
+}
+
+.about-cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.card {
+    padding: 10px;
+    border: 1px solid rgb(154, 72, 0);
+    border-radius: 15px;
+}
+
+.card p {
+    text-align: center;
+}
