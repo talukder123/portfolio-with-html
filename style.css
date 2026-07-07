@@ -145,6 +145,7 @@ nav {
 
 .wid-2 {
     text-align: center;
+    margin-top: 20px;
     font-size: 18px;
 }
 
@@ -227,3 +228,33 @@ nav {
     line-height: 1.7;
     color: #555;
 }
+
+.img-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-bottom: 30px;
+}
+
+.gallery-box {
+    max-width: 1200px;
+    margin-bottom: 100px;
+}
+
+.gallery-box h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.img-box img {
+    width: 100%;
+    height: 500px;   /* Fixed height */
+    object-fit: cover;
+    display: block;
+}
+
+
+
