@@ -12,6 +12,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 
@@ -31,66 +35,73 @@
     </header>
     <!--Navbar end-->
 
-    <!--Hero part start-->
-    <section class="hero-root">
-        <hero class="hero-box container">
-            <!--left part-->
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-box">
+
             <div class="hero-left">
-                <p class="hero-left-p1">Hi, I am</p>
-                <h2>Abdus Salam Talukder</h2>
-                <p>a passionate web development learner with a strong interest in creating
-                    clean, responsive, and user-friendly websites. I'm currently building my skills in HTML, CSS,
-                    JavaScript,
-                    and the MERN stack while working on real-world projects to grow as a full-stack developer.
+                <p class="hero-tag">👋 Hello, I'm</p>
+
+                <h1>Abdus Salam Talukder</h1>
+
+                <h3>Software Engineering Student & MERN Stack Developer</h3>
+
+                <p class="hero-desc">
+                    Passionate about building modern, responsive, and user-friendly web
+                    applications. Currently learning the MERN stack while creating
+                    real-world projects to become a professional full-stack developer.
                 </p>
 
-                <div class="hero-left-btns">
-                    <button class="hire-btn">
-                        Download CV
-                    </button>
-                    <button class="outline-btn">
-                        Contract
-                    </button>
+                <div class="hero-btns">
+                    <button class="hire-btn">Download CV</button>
+                    <button class="outline-btn">Contact Me</button>
                 </div>
             </div>
 
-            <!--right part-->
             <div class="hero-right">
-                <img class="hero-img" src="images/talukder.png" alt="">
+                <img src="images/talukder.png" alt="Abdus Salam Talukder">
             </div>
-        </hero>
+
+        </div>
     </section>
-    <!--Hero part end-->
+    <!--end-->
 
     <!--about start-->
-    <section class="container about-box">
-        <h2 class="about-me">About me</h2>
-        <p>I am a second-year Software Engineering student at Daffodil International University with a strong passion
-            for web development and software engineering. I am dedicated to building a solid foundation in programming,
-            modern web technologies, and software development principles.</p>
-        <p>Currently, I am focused on front-end development, learning HTML, CSS, Git, and GitHub while working on
-            real-world projects to strengthen my practical skills. My long-term goal is to become a professional MERN
-            Stack Developer by mastering both front-end and back-end technologies. I enjoy creating clean, responsive,
-            and user-friendly websites, and I believe that continuous learning and hands-on practice are the keys to
-            becoming a successful software engineer.</p>
+    <section class="about-section">
+        <div class="container about-box">
 
-        <div class="about-cards">
-            <div class="card">
-                <p>Name</p>
-                <h2>ABDUS SALAM TALUKDER</h2>
+            <span class="section-tag">About Me</span>
+            <h2>Who I Am</h2>
+
+            <p class="about-desc">
+                I'm a second-year Software Engineering student at Daffodil International University with a passion for
+                web development. I enjoy building responsive, user-friendly websites and continuously improving my
+                skills in HTML, CSS, JavaScript, React, Node.js, Express.js, and MongoDB. My goal is to become a
+                professional MERN Stack Developer by creating real-world projects and learning modern technologies.
+            </p>
+
+            <div class="about-cards">
+                <div class="card">
+                    <span>Name</span>
+                    <h3>Abdus Salam Talukder</h3>
+                </div>
+
+                <div class="card">
+                    <span>Email</span>
+                    <h3>salamtalukder537@gmail.com</h3>
+                </div>
+
+                <div class="card">
+                    <span>Major</span>
+                    <h3>Software Engineering</h3>
+                </div>
+
+                <div class="card">
+                    <span>Location</span>
+                    <h3>Gazipur, Bangladesh</h3>
+                </div>
             </div>
-            <div class="card">
-                <p>Email</p>
-                <h2>salamtalukder537@gmail.com</h2>
-            </div>
-            <div class="card">
-                <p>Major</p>
-                <h2>Software Engineering</h2>
-            </div>
-            <div class="card">
-                <p>From</p>
-                <h2>Gazipur, Bangladesh</h2>
-            </div>
+
         </div>
     </section>
     <!--about end-->
@@ -101,7 +112,9 @@
             <h2>What I do</h2>
         </div>
         <div class="wid-2">
-            <p>I design and develop responsive, user-friendly web applications using modern web technologies. From creating clean front-end interfaces to building back-end APIs and managing databases, I enjoy turning ideas into functional and scalable web solutions.
+            <p>I design and develop responsive, user-friendly web applications using modern web technologies. From
+                creating clean front-end interfaces to building back-end APIs and managing databases, I enjoy turning
+                ideas into functional and scalable web solutions.
             </p>
         </div>
 
@@ -115,7 +128,7 @@
             </div>
             <div class="wid-card">
                 <img src="images/icons/react.png" alt="">
-                <h3>Angular, React & Vue</h3>
+                <h3>React.js</h3>
                 <p>
                     Experienced in building responsive and reusable user interfaces with React. Familiar with
                     components, props, state, hooks, and creating modern single-page applications.
@@ -124,12 +137,14 @@
             <div class="wid-card">
                 <img src="images/icons/nodejs.png" alt="">
                 <h3>Node.js</h3>
-                <p>Skilled in building server-side applications with Node.js. Familiar with Express.js, REST APIs, and middleware.</p>
+                <p>Skilled in building server-side applications with Node.js. Familiar with Express.js, REST APIs, and
+                    middleware.</p>
             </div>
             <div class="wid-card">
                 <img src="images/icons/mongo.png" alt="">
                 <h3>MongoDB</h3>
-                <p>Proficient in using MongoDB to store and manage application data. Familiar with collections, documents, CRUD operations, queries, and integrating MongoDB with Node.js applications.</p>
+                <p>Proficient in using MongoDB to store and manage application data. Familiar with collections,
+                    documents, CRUD operations, queries, and integrating MongoDB with Node.js applications.</p>
             </div>
         </div>
 
@@ -140,57 +155,101 @@
     <!--resume start -->
     <section>
         <section id="resume">
-    <div class="container">
+            <div class="container">
 
-        <h2>Resume</h2>
+                <h2>Resume</h2>
 
-        <div class="resume-content">
+                <div class="resume-content">
 
-            <!-- Education -->
-            <div class="resume-box">
-                <h3>Education</h3>
+                    <!-- Education -->
+                    <div class="resume-box">
+                        <h3>Education</h3>
 
-                <div class="resume-item">
-                    <h4>B.Sc. in Software Engineering</h4>
-                    <h5>2025 - Present</h5>
-                    <p>Daffodil International University</p>
-                    <p>Currently a second-year student, focusing on software engineering principles and modern web development.</p>
+                        <div class="resume-item">
+                            <h4>B.Sc. in Software Engineering</h4>
+                            <h5>2025 - Present</h5>
+                            <p>Daffodil International University</p>
+                            <p>Currently a second-year student, focusing on software engineering principles and modern
+                                web development.</p>
+                        </div>
+                    </div>
+
+                    <!-- Experience -->
+                    <div class="resume-box">
+                        <h3>Experience</h3>
+
+                        <div class="resume-item">
+                            <h4>Frontend & Full-Stack Projects</h4>
+                            <h5>2026 - Present</h5>
+                            <p>Personal Projects</p>
+                            <p>Developing responsive web applications using HTML, CSS, JavaScript, React, Node.js,
+                                Express.js, and MongoDB while continuously improving practical development skills.</p>
+                        </div>
+                    </div>
+
                 </div>
+
             </div>
-
-            <!-- Experience -->
-            <div class="resume-box">
-                <h3>Experience</h3>
-
-                <div class="resume-item">
-                    <h4>Frontend & Full-Stack Projects</h4>
-                    <h5>2026 - Present</h5>
-                    <p>Personal Projects</p>
-                    <p>Developing responsive web applications using HTML, CSS, JavaScript, React, Node.js, Express.js, and MongoDB while continuously improving practical development skills.</p>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-</section>
+        </section>
     </section>
     <!--resume end-->
 
     <!--Gallery-->
     <section class="container gallery-box">
         <h2>Gallery</h2>
-        <section class="img-box">
-            <div class="img-1"><img src="./images/coke.jpg" alt=""></div>
-            <div class="img-2"><img src="./images/starbucks.jpg" alt=""></div>
-            <div class="img-3"><img src="./images/sprite.jpg" alt=""></div>
-            <div class="img-4"><img src="./images/dove.jpg" alt=""></div>
-            <div class="img-5"><img src="./images/juice.jpg" alt=""></div>
-            <div class="img-6"><img src="./images/nike.jpg" alt=""></div>
-        </section>
+        <p class="gallery-desc">
+            A collection of projects and creative works showcasing my design and development journey.
+        </p>
+
+        <div class="img-box">
+            <div><img src="./images/coke.jpg" alt="Coke"></div>
+            <div><img src="./images/starbucks.jpg" alt="Starbucks"></div>
+            <div><img src="./images/sprite.jpg" alt="Sprite"></div>
+            <div><img src="./images/dove.jpg" alt="Dove"></div>
+            <div><img src="./images/juice.jpg" alt="Juice"></div>
+            <div><img src="./images/nike.jpg" alt="Nike"></div>
+        </div>
     </section>
     <!--Gallery end-->
-    
+
+    <!--Contract form st-->
+    <section class="contact-section">
+        <section class="container connect-box">
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h2>Let's Connect</h2>
+
+                <p>
+                    Have a project in mind or just want to say hello? Feel free to send
+                    me a message. I'll get back to you as soon as possible.
+                </p>
+
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <form class="contact-form">
+                <h2>Send a Message</h2>
+
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="6" placeholder="Write your message..." required></textarea>
+
+                <button type="submit" class="hire-btn">
+                    Submit
+                </button>
+            </form>
+
+        </section>
+    </section>
+    <!--contract form end-->
+
+
 
 </body>
 
